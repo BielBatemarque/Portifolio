@@ -1,7 +1,10 @@
-export const Header = ({children}) => {
+import React from 'react';
+export const HeaderState = {};
+export const HeaderContext = React.createContext();
+export const Header = ({ children }) => {
     return(
-        <header>
+        <HeaderContext.Provider value={HeaderState}>
             {children}
-        </header>
+        </HeaderContext.Provider>
     );
 };
