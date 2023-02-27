@@ -11,7 +11,7 @@ function App() {
         <Logo />
       </Header>
       <Body>
-        
+        qualquer coisa de teste
       </Body>
     </div>
   );
