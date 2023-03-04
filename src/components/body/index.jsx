@@ -1,7 +1,12 @@
+import './styles.css';
+import { bodyContext } from './BodyContext';
+
 export const Body = ({children}) => {
     return(
-        <div>
-            {children}
-        </div>
+        <bodyContext.Provider>
+            <section className='section'>
+                {children}
+            </section>
+        </bodyContext.Provider>
     );
 };

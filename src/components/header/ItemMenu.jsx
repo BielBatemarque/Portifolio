@@ -1,4 +1,4 @@
-export const itemMenu = ({ children, onpressed }) => {
+export const ItemMenu = ({ children, onpressed }) => {
     return(
         <p onClick={onpressed}> {children}</p>
     );
