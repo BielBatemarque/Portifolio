@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header>
         <Logo />
-        <ItemMenu>Inicio</ItemMenu>
+        <ItemMenu children={'boa'} onpressed={() => console.log('safe')}/>
         <ItemMenu>Sobre Mim</ItemMenu>
         <ItemMenu>Projetos</ItemMenu>
         <ItemMenu>Habilidades</ItemMenu>
