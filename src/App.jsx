@@ -3,6 +3,7 @@ import { Header } from './components/header/index';
 import { Logo } from './components/header/logo';
 import { ItemMenu } from './components/header/ItemMenu';
 import { Body } from './components/body/index';
+import { TextSection } from './components/body/SectionSimples';
 
 function App() {
 
@@ -20,6 +21,9 @@ function App() {
         <h1>opa</h1>
         <h2>deu bom</h2>
       </Body>
+      <TextSection>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam alias aperiam repellendus? Impedit at nulla q.</p>
+      </TextSection>
 
 
     </div>
