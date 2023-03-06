@@ -9,8 +9,10 @@ export const HeaderContext = React.createContext();
 export const Header = ({ children }) => {
     return(
         <HeaderContext.Provider value={HeaderState}>
-            <header className='header'>
-                {children}
+            <header>
+                <div className='header'>
+                    {children}
+                </div>
             </header>
         </HeaderContext.Provider>
     );
