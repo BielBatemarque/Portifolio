@@ -16,7 +16,7 @@ function App() {
         <ItemMenu>Projetos</ItemMenu>
         <ItemMenu>Habilidades</ItemMenu>
       </Header>
-      <hr />
+      <hr className='hr'/>
       <Body>
         <h1>opa</h1>
         <h2>deu bom</h2>
