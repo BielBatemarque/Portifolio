@@ -3,12 +3,19 @@
 }
 
 .header{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    background-color: gray;
 }
 
 .itemMenu{
     margin: auto auto;
+    cursor: pointer;
+}
+
+.itemMenu:hover{
+    color:white;
+    transition: 0.5s;
 }
