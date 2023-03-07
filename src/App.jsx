@@ -22,7 +22,8 @@ function App() {
         <h2>deu bom</h2>
       </Body>
       <TextSection>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam alias aperiam repellendus? Impedit at nulla q.</p>
+        <h3>Sobre Mim</h3>
+        <p>Meu Nome é Gabriel Batemarque, desde criança sempre fui apaixonado por tecnologia, assim resolvi que meu caminho será no ramo da programação. Meu conhecimento está focado no desenvolvimento Web, com tecnologias como React.Js e Next.Js, consumo de APIs, sendo voltado para o Front-End, possumo também experiência com desenvolvimento Mobile com Flutter e Dart.</p>
       </TextSection>
 
 
