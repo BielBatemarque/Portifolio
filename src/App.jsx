@@ -1,10 +1,11 @@
 import './App.css';
+import { Header } from './components/header/index';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1 className='cont'>opa meu fi</h1>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
