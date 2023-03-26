@@ -1,0 +1,12 @@
+.home__container{
+    grid-template-columns: 116px repeat(2, 1fr);
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.home__img{
+    background: url(../../assets//profile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}   
