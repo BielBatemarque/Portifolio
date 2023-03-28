@@ -181,11 +181,17 @@
     }
   }
   
-  @media screen and (max-width: 576px) {
-  }
-  
   /* For small devices */
   @media screen and (max-width: 350px) {
+    .home__img{
+        width: 180px;
+        height: 180px;
+    }
 
+    .home__hand{
+        width: 22px;
+        height: 22px;
+        
+    }
   }
   
