@@ -1,3 +1,7 @@
+import './Skills.css';
+import { Backend } from './Backend';
+import { FrontEnd } from './Frontend';
+
 export const Skills = () => {
     return(
         <section className="skills section" id="skills">
@@ -5,7 +9,8 @@ export const Skills = () => {
             <span className="section__subtitle">Habilidades Técnicas</span>
         
             <div className="skills__container container grid">
-                
+                <FrontEnd />
+                <Backend />
             </div>
         </section>
     );
