@@ -1,0 +1,17 @@
+.componente__content{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.conteudo{
+    margin-top: 2rem;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: var(--container-color);
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 15px;
+    margin: 1.25rem;
+}
+

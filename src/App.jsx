@@ -5,7 +5,7 @@ import { About } from './components/About/index';
 import { Skills } from './components/Skills/index';
 import { Services } from './components/Services'; 
 import { Qualifications } from './components/Qualifications';
-
+import { Componente } from './components/ComponenteAmais/index';
 
 const App = () => {
   return (
@@ -17,6 +17,7 @@ const App = () => {
         <Skills />
         <Services />
         <Qualifications />
+        <Componente />
       </main>
     </>
   );
