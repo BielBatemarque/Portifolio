@@ -1,13 +1,12 @@
 .componente__content{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
-.conteudo{
+.conteudoBloco{
     margin-top: 2rem;
     width: 350px;
-    height: 350px;
+    height: 275px;
     text-align: center;
     background-color: var(--container-color);
     border: 1px solid rgb(147, 147, 147);
@@ -15,3 +14,25 @@
     margin: 1.25rem;
 }
 
+.descricaoBlobo{
+    text-align: center;
+}
+
+.imgb1{
+    margin-top: 0.75rem;
+    height: 250px;
+}
+
+@media screen and (max-width: 450px){
+    .componente__content{
+        display: flex;
+        flex-direction: column;  
+        margin-right: 6rem;
+    }
+
+    .bloco1, .bloco2{
+        margin-left: 3px;
+        margin-right: 3px;
+
+    }
+}

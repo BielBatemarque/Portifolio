@@ -9,7 +9,7 @@ export const Social = () => {
                 <i className="uil uil-github-alt"></i>
             </a> 
 
-            <a href="https://github.com/BielBatemarque" className="home__social-icon" target="_blank">
+            <a href="https://www.linkedin.com/in/gabriel-batemarque/" className="home__social-icon" target="_blank">
                 <i className="uil uil-linkedin-alt"></i>
             </a> 
         </div>
