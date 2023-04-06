@@ -4,5 +4,5 @@ Este é meu portifólio, onde conto um pouco sobre mim, habilidades, estudos, ex
 
 Espero que gostem =)
 
-#Desenvolvido com:
+# Desenvolvido com:
 React, JavaScript e CSS
