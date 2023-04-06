@@ -10,7 +10,7 @@ export const Componente = () => {
     const [text, setText] = useState('');
 
     return(
-        <section className="componente container section">
+        <section className="componente container section" id='portifolio'>
             <h2 className="section__title">Portifólio</h2>
             <span className="section__subtitle">Meus Projétos</span>
 

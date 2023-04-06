@@ -16,7 +16,7 @@ export const About = () => {
                         <p className="about__description">Desenvolvedor Front-End, criando sistemas Web com foco em React.Js e Next.Js, possuo atualmente dois anos de experiência com desenvolvimento Front-End</p>
                         <a download="" href={CV} className="button button--flex">Download CV
                         <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

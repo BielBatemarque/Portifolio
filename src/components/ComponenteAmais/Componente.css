@@ -111,9 +111,7 @@
         margin-right: 6rem;
     }
 
-    .bloco1, .bloco2{
-        margin-left: 3px;
-        margin-right: 3px;
-
+    .conteudoBloco, .conteudoBloco2{
+        width: 320px;
     }
 }
