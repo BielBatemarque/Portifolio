@@ -6,7 +6,7 @@
 
 .about__img{
     width: 350px;
-    height: 430px;
+    height: 410px;
     border-radius: 1.5rem;
     justify-self: center;
 }
@@ -54,7 +54,7 @@
     }
 
     .about__img{
-        width: 220px;
+        width: 320px;
     }
 
     .about__box{

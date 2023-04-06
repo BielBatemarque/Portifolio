@@ -26,11 +26,83 @@
     height: 250px;
 }
 
-svg{
-    width: 50px;
-    margin: 0;
+.conteudoSobre:hover{
+    transition: 0.2s;
+    opacity: 80%;
+    color: gray;
+    background-color: black;
+    height: 100%;
+    border-radius: 15px;
 }
 
+.tecnologias{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.title{
+    line-height: 3rem;
+    margin-bottom: 0;
+}
+
+.desc{
+    margin-top: 2rem;
+}
+
+.teclist{
+    margin-top: 1rem;
+}
+
+.icon{
+    font-size: 3rem;
+}
+
+
+
+.icon-react:hover{
+    transition: 0.3s;
+    color: rgba(50, 50, 241, 0.762);
+}
+
+.icon-js:hover{
+    transition: 0.3s;
+    color: yellow;
+}
+
+.icon-css:hover{
+    transition: 0.3s;
+    color: blue;
+}
+
+
+.conteudoBloco2{
+    margin-top: 2rem;
+    width: 350px;
+    height: 275px;
+    text-align: center;
+    background-color: var(--container-color);
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 15px;
+    margin: 1.25rem;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoBloco2:hover{
+    transition: 0.3s;
+    opacity: 80%;
+    color: gray;
+    background-color: black;
+ 
+}
+
+.conteudoBloco2 h4{
+    font-size: 1.25rem;
+    margin: auto;
+}
 
 @media screen and (max-width: 450px){
     .componente__content{
