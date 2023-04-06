@@ -1,6 +1,7 @@
 .componente__content{
     display: flex;
     justify-content: center;
+
 }
 
 .conteudoBloco{
@@ -12,16 +13,24 @@
     border: 1px solid rgb(147, 147, 147);
     border-radius: 15px;
     margin: 1.25rem;
+    cursor: pointer;
 }
 
 .descricaoBlobo{
     text-align: center;
+    cursor: pointer;
 }
 
 .imgb1{
     margin-top: 0.75rem;
     height: 250px;
 }
+
+svg{
+    width: 50px;
+    margin: 0;
+}
+
 
 @media screen and (max-width: 450px){
     .componente__content{
