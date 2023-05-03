@@ -101,7 +101,7 @@ export const Qualifications = () => {
                                 <h3 className="qualification__title">Desenvolvedor Páginas Web</h3>
                                 <span className="qualification__subtitle">Rz Sistemas</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - Atualmente
+                                    <i className="uil uil-calendar-alt"></i> out/22 - abr/23
                                 </div>
                             </div>
 
@@ -121,11 +121,9 @@ export const Qualifications = () => {
                                 <h3 className="qualification__title">Desenvolvedor Mobile</h3>
                                 <span className="qualification__subtitle">Rz Sistemas</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - Atualmente
+                                    <i className="uil uil-calendar-alt"></i> out/22 - abr/23
                                 </div>
                             </div>
-
-
                         </div>
 
                         <div className="qualification__data">
@@ -142,6 +140,23 @@ export const Qualifications = () => {
                                 <span className="qualification__line"></span>
                             </div>
                         </div>
+
+                        <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification__title">Dev Academy</h3>
+                                <span className="qualification__subtitle">SCI Sistemas</span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i> 2023 - Atualmente
+                                </div>
+                            </div>
+                        </div>
+
+                        
                     </div>
                 </div>
             </div>
