@@ -8,9 +8,15 @@ import { Qualifications } from './components/Qualifications';
 import { Componente } from './components/ComponenteAmais/index';
 import { Contact } from './components/Contact/index';
 import { Footer } from './components/Footer';
+import { useEffect } from 'react';
 
 
 const App = () => {
+
+  useEffect(() => {
+    console.warn = () => {};
+  });
+
   return (
     <>
       <Header />

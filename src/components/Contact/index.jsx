@@ -73,7 +73,7 @@ export const Contact = () => {
                         </div>
                         <button className="button button--flex">Mande uma Mensagem
             <svg
-                  classname="button__icon"
+                  className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"

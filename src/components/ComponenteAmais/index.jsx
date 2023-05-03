@@ -4,8 +4,6 @@ import { useState } from 'react';
 
 export const Componente = () => {
     const [flag1, setFlag1] = useState(false);
-    console.log(flag1);
-
     const [text, setText] = useState('');
 
     return(
