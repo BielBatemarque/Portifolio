@@ -79,7 +79,7 @@ export const Services = () => {
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                             <h3 className="services__modal-title">Desenvolvedor Mobile</h3>
-                            <p className="services__modal-description">Trabalhando por cerca de 6 meses em ambiente profissional na área</p>
+                            <p className="services__modal-description">Trabalhando por cerca de 8 meses em ambiente profissional na área</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-services">
