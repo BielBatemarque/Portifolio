@@ -6,7 +6,7 @@ export const Qualifications = () => {
 
     const toggleTab= (index) => {
         setToggle(index);
-    }
+    };
 
     return(
         <section className="qualification section">
