@@ -34,7 +34,7 @@ export const Services = () => {
                                 <li className="services__modal-services">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Desenvolvendo Interfaces Client Side </p>
+                                        Desenvolvendo Interfaces Client-Side e Server-Side </p>
                                 </li>
 
                                 <li className="services__modal-services">

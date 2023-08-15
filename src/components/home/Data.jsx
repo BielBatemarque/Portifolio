@@ -53,8 +53,8 @@ export const Data = () => {
                   ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">Desenvolvedor Front-End</h3>
-            <p className="home__description">Olá, sou gabriel estudande de análise e desenvolvimento no IFSC campus Gaspar, Sou desenvolvedor front-End com foco em JavaScript e React.Js</p>
+            <h3 className="home__subtitle">Desenvolvedor Full-Stack</h3>
+            <p className="home__description">Olá, sou gabriel estudande de análise e desenvolvimento no IFSC campus Gaspar, Sou desenvolvedor Full-Stack com foco em React.Js e Python</p>
             <a href="#contact" className="button button--flex">Entre em Contato
             <svg
                   className="button__icon"

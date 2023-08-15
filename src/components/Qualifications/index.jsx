@@ -128,7 +128,7 @@ export const Qualifications = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Desenvodor React.Js</h3>
+                                <h3 className="qualification__title">Desenvolvedor React.Js</h3>
                                 <span className="qualification__subtitle">Projetos Pessoais</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2022 - Atualmente
