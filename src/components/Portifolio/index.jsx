@@ -47,7 +47,7 @@ export const Componente = () => {
                         <h4 className="descricaoBlobo" >Portifólio Pessoal</h4>
                     </div>
 
-                    <div className="bloco1"> 
+                    <div className="bloco2"> 
                         <div className="conteudoBloco" onMouseEnter={() => setFlag1(true)} onMouseLeave={() => setFlag1(false)}>
                             { flag1 === true ?
                                 <div className='conteudoSobre'>
@@ -70,7 +70,7 @@ export const Componente = () => {
                         <h4 className="descricaoBlobo" >Portifólio Pessoal</h4>
                     </div>
 
-                    <div className="bloco1"> 
+                    <div className="bloco3"> 
                         <div className="conteudoBloco" onMouseEnter={() => setFlag1(true)} onMouseLeave={() => setFlag1(false)}>
                             { flag1 === true ?
                                 <div className='conteudoSobre'>
@@ -93,7 +93,7 @@ export const Componente = () => {
                         <h4 className="descricaoBlobo" >Portifólio Pessoal</h4>
                     </div>
 
-                    <div className="bloco1"> 
+                    <div className="bloco4"> 
                         <div className="conteudoBloco" onMouseEnter={() => setFlag1(true)} onMouseLeave={() => setFlag1(false)}>
                             { flag1 === true ?
                                 <div className='conteudoSobre'>

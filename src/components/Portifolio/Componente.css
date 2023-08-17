@@ -4,10 +4,6 @@
     justify-items: center;
 }
 
-.bloco1{
-    text-align: center;
-}
-
 .conteudoBloco{
     margin-top: 2rem;
     width: 350px;
@@ -118,4 +114,6 @@
     .conteudoBloco, .conteudoBloco2{
         width: 320px;
     }
+
+
 }
