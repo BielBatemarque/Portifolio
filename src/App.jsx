@@ -5,7 +5,7 @@ import { About } from './components/About/index';
 import { Skills } from './components/Skills/index';
 import { Services } from './components/Services'; 
 import { Qualifications } from './components/Qualifications';
-import { Componente } from './components/ComponenteAmais/index';
+import { Componente } from './components/Portifolio/index';
 import { Contact } from './components/Contact/index';
 import { Footer } from './components/Footer';
 import { useEffect } from 'react';

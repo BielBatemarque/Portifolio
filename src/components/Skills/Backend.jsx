@@ -37,7 +37,7 @@ export const Backend = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">MySQL</h3>
-                        <span className="skills__level">Básico</span>
+                        <span className="skills__level">Intermediário</span>
                     </div>
                 </div>
 
