@@ -1,7 +1,11 @@
 .componente__content{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
 
+.bloco1{
+    text-align: center;
 }
 
 .conteudoBloco{
