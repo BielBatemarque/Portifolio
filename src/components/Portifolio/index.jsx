@@ -5,6 +5,11 @@ import { useState } from 'react';
 export const Componente = () => {
     const [flag1, setFlag1] = useState(false);
     const [text, setText] = useState('');
+    const [flag2, setFlag2] = useState(false);
+    const [text2, setText2] = useState('');
+    const [flag3, setFlag3] = useState(false);
+    const [text3, setText3] = useState('');
+
 
     return(
         <section className="componente container section" id='portifolio'>
