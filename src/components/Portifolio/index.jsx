@@ -52,7 +52,7 @@ export const Componente = () => {
                             { flag2 === true ?
                                 <div className='conteudoSobre'>
                                     <div className='tecnologias'>
-                                    <h4 className='title'>Portifólio Pessoal</h4>
+                                    <h4 className='title'>React Skills</h4>
                                         <h4 className='desc'>Técnologias Utilizadas</h4>
                                         <ul className='teclist'>
                                         <i className="uil uil-react icon icon-react" onMouseEnter={() => setText('React.Js')}></i>
@@ -75,7 +75,7 @@ export const Componente = () => {
                             { flag3 === true ?
                                 <div className='conteudoSobre'>
                                     <div className='tecnologias'>
-                                    <h4 className='title'>Portifólio Pessoal</h4>
+                                    <h4 className='title'>Conveniência 2.0</h4>
                                         <h4 className='desc'>Técnologias Utilizadas</h4>
                                         <ul className='teclist'>
                                         <i className="uil uil-react icon icon-react" onMouseEnter={() => setText('React.Js')}></i>
