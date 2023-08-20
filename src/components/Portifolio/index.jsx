@@ -110,7 +110,6 @@ export const Componente = () => {
                                 </div>    
                                 :
                                 <img src={Port} alt="Portifólio Pes'soa" className='imgb1'/>                 
-
                         }
                         </div>
                         <h4 className="descricaoBlobo" >Portifólio Pessoal</h4>
