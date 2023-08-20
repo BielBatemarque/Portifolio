@@ -48,8 +48,8 @@ export const Componente = () => {
                     </div>
 
                     <div className="bloco2"> 
-                        <div className="conteudoBloco" onMouseEnter={() => setFlag1(true)} onMouseLeave={() => setFlag1(false)}>
-                            { flag1 === true ?
+                        <div className="conteudoBloco" onMouseEnter={() => setFlag2(true)} onMouseLeave={() => setFlag2(false)}>
+                            { flag2 === true ?
                                 <div className='conteudoSobre'>
                                     <div className='tecnologias'>
                                     <h4 className='title'>Portifólio Pessoal</h4>
@@ -71,8 +71,8 @@ export const Componente = () => {
                     </div>
 
                     <div className="bloco3"> 
-                        <div className="conteudoBloco" onMouseEnter={() => setFlag1(true)} onMouseLeave={() => setFlag1(false)}>
-                            { flag1 === true ?
+                        <div className="conteudoBloco" onMouseEnter={() => setFlag3(true)} onMouseLeave={() => setFlag3(false)}>
+                            { flag3 === true ?
                                 <div className='conteudoSobre'>
                                     <div className='tecnologias'>
                                     <h4 className='title'>Portifólio Pessoal</h4>
@@ -94,8 +94,8 @@ export const Componente = () => {
                     </div>
 
                     <div className="bloco4"> 
-                        <div className="conteudoBloco" onMouseEnter={() => setFlag1(true)} onMouseLeave={() => setFlag1(false)}>
-                            { flag1 === true ?
+                        <div className="conteudoBloco" onMouseEnter={() => setFlag4(true)} onMouseLeave={() => setFlag4(false)}>
+                            { flag4 === true ?
                                 <div className='conteudoSobre'>
                                     <div className='tecnologias'>
                                     <h4 className='title'>Portifólio Pessoal</h4>
