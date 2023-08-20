@@ -63,7 +63,7 @@ export const Componente = () => {
                                         <h3 className='descTEc'>{text}</h3>
                                 </div>    
                                 :
-                                <img src={Port} alt="Portifólio Pes'soa" className='imgb1'/>                 
+                                <img src={reactSkils} alt="Portifólio Pes'soa" className='imgb1'/>                 
 
                         }
                         </div>
@@ -86,7 +86,7 @@ export const Componente = () => {
                                         <h3 className='descTEc'>{text}</h3>
                                 </div>    
                                 :
-                                <img src={Port} alt="Portifólio Pes'soa" className='imgb1'/>                 
+                                <img src={conveniencia} alt="Portifólio Pes'soa" className='imgb1'/>                 
 
                         }
                         </div>
