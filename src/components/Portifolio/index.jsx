@@ -3,6 +3,10 @@ import Port from '../../assets/port.png';
 import reactSkils from '../../assets/reactSkills.png';
 import conveniencia from '../../assets/conveniencia.png';
 import { useState } from 'react';
+import { FaReact } from 'react-icons/fa';
+import { FaJs} from 'react-icons/fa';
+import {FaCss3} from 'react-icons/fa';
+import { SiStyledcomponents } from 'react-icons/si';
 
 export const Componente = () => {
     const [flag1, setFlag1] = useState(false);
@@ -32,9 +36,9 @@ export const Componente = () => {
                                     <h4 className='title'>Portifólio Pessoal</h4>
                                         <h4 className='desc'>Técnologias Utilizadas</h4>
                                         <ul className='teclist'>
-                                        <i className="uil uil-react icon icon-react" onMouseEnter={() => setText('React.Js')}></i>
-                                        <i className="uil uil-java-script icon icon-js" onMouseEnter={() => setText('JavaScript')}></i>
-                                        <i className="uil uil-css3-simple icon icon-css" onMouseEnter={() => setText('Css')}></i>
+                                        <FaReact size={40} onMouseEnter={() => setText('React.Js')} />  
+                                        <FaJs size={40} onMouseEnter={() => setText('JavaScript')}/>  
+                                        <FaCss3 size={40} onMouseEnter={() => setText('Css')}/>  
                                         </ul>
                                     </div>
                                         <h3 className='descTEc'>{text}</h3>
@@ -55,12 +59,12 @@ export const Componente = () => {
                                     <h4 className='title'>React Skills</h4>
                                         <h4 className='desc'>Técnologias Utilizadas</h4>
                                         <ul className='teclist'>
-                                        <i className="uil uil-react icon icon-react" onMouseEnter={() => setText('React.Js')}></i>
-                                        <i className="uil uil-java-script icon icon-js" onMouseEnter={() => setText('JavaScript')}></i>
-                                        <i className="uil uil-css3-simple icon icon-css" onMouseEnter={() => setText('Css')}></i>
+                                        <FaReact size={40} onMouseEnter={() => setText2('React.Js')} />  
+                                        <FaJs size={40} onMouseEnter={() => setText2('JavaScript')}/>  
+                                        <SiStyledcomponents size={40} onMouseEnter={() => setText2('Styled-Components')} />
                                         </ul>
                                     </div>
-                                        <h3 className='descTEc'>{text}</h3>
+                                        <h3 className='descTEc'>{text2}</h3>
                                 </div>    
                                 :
                                 <img src={reactSkils} alt="Portifólio Pes'soa" className='imgb1'/>                 
