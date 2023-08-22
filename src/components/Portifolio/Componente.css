@@ -22,8 +22,10 @@
 }
 
 .imgb1{
-    margin-top: 0.75rem;
-    height: 250px;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    border-radius: 14px;
 }
 
 .conteudoSobre:hover{

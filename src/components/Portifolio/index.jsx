@@ -67,7 +67,7 @@ export const Componente = () => {
 
                         }
                         </div>
-                        <h4 className="descricaoBlobo" >Portifólio Pessoal</h4>
+                        <h4 className="descricaoBlobo" >React Skills</h4>
                     </div>
 
                     <div className="bloco3"> 
@@ -90,7 +90,7 @@ export const Componente = () => {
 
                         }
                         </div>
-                        <h4 className="descricaoBlobo" >Portifólio Pessoal</h4>
+                        <h4 className="descricaoBlobo" >Conveniência 2.0</h4>
                     </div>
 
                     <div className="bloco4"> 
