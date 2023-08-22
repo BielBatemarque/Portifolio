@@ -7,6 +7,9 @@ import { FaReact } from 'react-icons/fa';
 import { FaJs} from 'react-icons/fa';
 import {FaCss3} from 'react-icons/fa';
 import { SiStyledcomponents } from 'react-icons/si';
+import { FaPython } from 'react-icons/fa';
+import { SiDjango } from 'react-icons/si';
+import { FaHtml5} from 'react-icons/fa';
 
 export const Componente = () => {
     const [flag1, setFlag1] = useState(false);
@@ -15,8 +18,7 @@ export const Componente = () => {
     const [text2, setText2] = useState('');
     const [flag3, setFlag3] = useState(false);
     const [text3, setText3] = useState('');
-    const [flag4, setFlag4] = useState(false);
-    const [text4, setText4] = useState('');
+
 
 
 
@@ -82,12 +84,13 @@ export const Componente = () => {
                                     <h4 className='title'>Conveniência 2.0</h4>
                                         <h4 className='desc'>Técnologias Utilizadas</h4>
                                         <ul className='teclist'>
-                                        <i className="uil uil-react icon icon-react" onMouseEnter={() => setText('React.Js')}></i>
-                                        <i className="uil uil-java-script icon icon-js" onMouseEnter={() => setText('JavaScript')}></i>
-                                        <i className="uil uil-css3-simple icon icon-css" onMouseEnter={() => setText('Css')}></i>
+                                        <FaPython size={40} onMouseEnter={() => setText3('Python')}/>
+                                        <SiDjango size={40} onMouseEnter={() => setText3('Django')}/>
+                                        <FaJs size={40} onMouseEnter={() => setText3('javaScript')}/>
+                                        <FaHtml5 size={40} onMouseEnter={() => setText3('HTML')}/>
                                         </ul>
                                     </div>
-                                        <h3 className='descTEc'>{text}</h3>
+                                        <h3 className='descTEc'>{text3}</h3>
                                 </div>    
                                 :
                                 <img src={conveniencia} alt="Portifólio Pes'soa" className='imgb1'/>                 
