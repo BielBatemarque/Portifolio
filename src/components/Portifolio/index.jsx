@@ -86,7 +86,7 @@ export const Componente = () => {
                                         <ul className='teclist'>
                                         <FaPython size={40} onMouseEnter={() => setText3('Python')}/>
                                         <SiDjango size={40} onMouseEnter={() => setText3('Django')}/>
-                                        <FaJs size={40} onMouseEnter={() => setText3('javaScript')}/>
+                                        <FaJs size={40} onMouseEnter={() => setText3('JavaScript')}/>
                                         <FaHtml5 size={40} onMouseEnter={() => setText3('HTML')}/>
                                         </ul>
                                     </div>
