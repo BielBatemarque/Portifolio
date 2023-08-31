@@ -13,7 +13,7 @@ export const About = () => {
                     <img src={AboutImg} alt="" className="about__img" />
                     <div className="about__data">
                         <Info />
-                        <p className="about__description">Desenvolvedor Front-End, criando sistemas Web com foco em React.Js e Next.Js, possuo atualmente dois anos de experiência com desenvolvimento Front-End</p>
+                        <p className="about__description">Desenvolvedor Full-Stack, criando sistemas Web com foco em React.Js/Next.Js e Django, possuo atualmente dois anos de experiência com desenvolvimento Web</p>
                         <a download="" href={CV} className="button button--flex">Download CV
                         <svg
                 className="button__icon"
