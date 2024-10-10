@@ -8,8 +8,8 @@ export const FrontEnd = () =>{
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">HTML</h3>
-                            <span className="skills__level">Basico</span>
+                            <h3 className="skills__name">React.Js</h3>
+                            <span className="skills__level">Intermediário</span>
                         </div>
                     </div>
 
@@ -52,8 +52,9 @@ export const FrontEnd = () =>{
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">React.Js</h3>
-                            <span className="skills__level">Intermediário</span>
+
+                            <h3 className="skills__name">HTML</h3>
+                            <span className="skills__level">Avançado</span>
                         </div>
                     </div>
 
