@@ -13,7 +13,7 @@ export const About = () => {
                     <img src={AboutImg} alt="" className="about__img" />
                     <div className="about__data">
                         <Info />
-                        <p className="about__description">Desenvolvedor Full-Stack, criando sistemas Web com foco em React.Js/Next.Js e Django, possuo atualmente dois anos de experiência com desenvolvimento Web</p>
+                        <p className="about__description">Desenvolvedor Full-Stack com foco em Python, especializado em criação de sistemas web utilizando Django no backend e React.js no frontend. Com dois anos de experiência no desenvolvimento de aplicações web, também possuo forte conhecimento em web scraping, automação de coleta de dados e integração com APIs, utilizando bibliotecas como BeautifulSoup e Scrapy para extrair e processar informações de diferentes fontes online.</p>
                         <a download="" href={CV} className="button button--flex">Download CV
                         <svg
                 className="button__icon"
