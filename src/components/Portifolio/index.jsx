@@ -2,6 +2,7 @@ import './Componente.css';
 import Port from '../../assets/port.png';
 import reactSkils from '../../assets/reactSkills.png';
 import conveniencia from '../../assets/conveniencia.png';
+import stoneco from '../../assets/stoneco.png';
 import { useState } from 'react';
 import { FaReact } from 'react-icons/fa';
 import { FaJs} from 'react-icons/fa';
@@ -18,7 +19,8 @@ export const Componente = () => {
     const [text2, setText2] = useState('');
     const [flag3, setFlag3] = useState(false);
     const [text3, setText3] = useState('');
-
+    const [flag4, setFlag4] = useState(false);
+    const [text4, setText4] = useState('');
 
 
 
@@ -101,10 +103,28 @@ export const Componente = () => {
                     </div>
 
                     <div className="bloco4"> 
-                        <div className="conteudoBloco2">
-                            <h4>Em Desenvolvimento</h4>
+                    <div className="conteudoBloco" onMouseEnter={() => setFlag4(true)} onMouseLeave={() => setFlag4(false)}>
+                            { flag4 === true ?
+                                <div className='conteudoSobre'>
+                                    <div className='tecnologias'>
+                                    <h4 className='title'>Stone CO.</h4>
+                                        <h4 className='desc'>Técnologias Utilizadas</h4>
+                                        <ul className='teclist'>
+                                        <FaPython size={40} onMouseEnter={() => setText4('Python')}/>
+                                        <SiDjango size={40} onMouseEnter={() => setText4('Django')}/>
+                                        <FaReact size={40} onMouseEnter={() => setText4('React.Js')} /> 
+                                        <FaJs size={40} onMouseEnter={() => setText4('JavaScript')}/>
+                                        <SiStyledcomponents size={40} onMouseEnter={() => setText4('Styled-Components')} />
+                                        </ul>
+                                    </div>
+                                        <h3 className='descTEc'>{text4}</h3>
+                                </div>    
+                                :
+                                <img src={stoneco} alt="Portifólio Pes'soa" className='imgb1'/>                 
+
+                        }
                         </div>
-                     <h4 className="descricaoBlobo">Em Breve</h4>
+                        <h4 className="descricaoBlobo">Stone CO.</h4>
             
                     </div>
                 </div>
