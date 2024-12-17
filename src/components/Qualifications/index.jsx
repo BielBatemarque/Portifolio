@@ -128,10 +128,10 @@ export const Qualifications = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Desenvolvedor React.Js</h3>
-                                <span className="qualification__subtitle">Projetos Pessoais</span>
+                                <h3 className="qualification__title">Desenvolvedor Web(jr).</h3>
+                                <span className="qualification__subtitle">SCI Sistemas</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - Atualmente
+                                    <i className="uil uil-calendar-alt"></i> abr/2023 - dez/2024
                                 </div>
                             </div>
 
@@ -148,10 +148,10 @@ export const Qualifications = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">Desenvolvedor Web</h3>
-                                <span className="qualification__subtitle">SCI Sistemas</span>
+                                <h3 className="qualification__title">Software Developer</h3>
+                                <span className="qualification__subtitle">Senior Sistemas</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2023 - Atualmente
+                                    <i className="uil uil-calendar-alt"></i> dez/2024 - Atualmente
                                 </div>
                             </div>
                         </div>
