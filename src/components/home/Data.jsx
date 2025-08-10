@@ -54,7 +54,7 @@ export const Data = () => {
                 </svg>
             </h1>
             <h3 className="home__subtitle">Desenvolvedor Full-Stack</h3>
-            <p className="home__description">Olá, sou Gabriel estudande de análise e desenvolvimento no IFSC campus Gaspar, Sou desenvolvedor Web Full-Stack com foco em Python e React.js.</p>
+            <p className="home__description">Olá, sou Gabriel, formado em Análise e Desenvolvimento de Sistemas pelo IFSC – Campus Gaspar. Atuo como desenvolvedor Web Full-Stack, com foco em React, Node.Js e Python.</p>
             <a href="#contact" className="button button--flex">Entre em Contato
             <svg
                   className="button__icon"
