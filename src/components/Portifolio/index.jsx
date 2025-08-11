@@ -95,7 +95,7 @@ export const Componente = () => {
                                         <h3 className='descTEc'>{text3}</h3>
                                 </div>    
                                 :
-                                <img src={conveniencia} alt="Portifólio Pes'soa" className='imgb1'/>                 
+                                <img src={conveniencia} alt="Portifólio Pessoa" className='imgb1'/>                 
 
                         }
                         </div>

@@ -67,7 +67,7 @@ export const Qualifications = () => {
                                 <h3 className="qualification__title">Análise e Desenvolvimento de Sistemas</h3>
                                 <span className="qualification__subtitle">IFSC - Gaspar</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - Atualmente
+                                    <i className="uil uil-calendar-alt"></i> 2022 - 2025
                                 </div>
                             </div>
 
@@ -87,7 +87,7 @@ export const Qualifications = () => {
                                 <h3 className="qualification__title">Curso React.Js e Next.Js</h3>
                                 <span className="qualification__subtitle">Udemy</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - Atualmente
+                                    <i className="uil uil-calendar-alt"></i> 2022 - 2023
                                 </div>
                             </div>
 

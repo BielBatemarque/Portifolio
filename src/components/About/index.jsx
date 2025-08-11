@@ -1,6 +1,6 @@
 import './About.css';
 import AboutImg from '../../assets/opai.jpeg';
-import CV from '../../assets/gabrielBatemarqueCV.pdf';
+import CV from '../../assets/cv_att_certo.pdf';
 import { Info } from './Info';
 
 export const About = () => {
@@ -13,7 +13,7 @@ export const About = () => {
                     <img src={AboutImg} alt="" className="about__img" />
                     <div className="about__data">
                         <Info />
-                        <p className="about__description">Desenvolvedor Full-Stack com foco em Python, especializado em criação de sistemas web utilizando Django no backend e React.js no frontend. Com dois anos de experiência no desenvolvimento de aplicações web, também possuo forte conhecimento em web scraping, automação de coleta de dados e integração com APIs, utilizando bibliotecas como BeautifulSoup e Scrapy para extrair e processar informações de diferentes fontes online.</p>
+                        <p className="about__description">Como desenvolvedor Full-Stack, possuo sólida experiência em todas as etapas do desenvolvimento web. No frontend, meu foco está no ecossistema React, utilizando bibliotecas e frameworks como Styled-components, React Query e Next.js para criar interfaces modernas, dinâmicas e eficientes. No backend, atuo com NestJS e Django Rest Framework, desenvolvendo APIs escaláveis e de alta performance, sempre buscando boas práticas e arquitetura limpa. Além disso, tenho experiência em web scraping, automação e integração com APIs, utilizando ferramentas como Requests, BeautifulSoup e Selenium para coletar e processar dados de diversas fontes.</p>
                         <a download="" href={CV} className="button button--flex">Download CV
                         <svg
                 className="button__icon"

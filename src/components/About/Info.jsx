@@ -4,13 +4,13 @@ export const Info = () => {
             <div className="about__box">
                 <i className="bx bx-award about__icon"></i>
                 <h3 className="about__title">Experiências</h3>
-                <span className="about__subtitle">+1 ano</span>
+                <span className="about__subtitle">± 3 anos</span>
             </div>
 
             <div className="about__box">
                 <i className="bx bx-briefcase-alt about__icon"></i>
-                <h3 className="about__title">Completos</h3>
-                <span className="about__subtitle">7 + Projetos</span>
+                <h3 className="about__title">Projetos</h3>
+                <span className="about__subtitle">+ 10 completos</span>
             </div>
 
             <div className="about__box">

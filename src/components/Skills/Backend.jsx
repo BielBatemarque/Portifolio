@@ -9,7 +9,7 @@ export const Backend = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">Python</h3>
-                        <span className="skills__level">Intermediário</span>
+                        <span className="skills__level">Avançado</span>
                     </div>
                 </div>
 
@@ -17,7 +17,7 @@ export const Backend = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">Django</h3>
-                        <span className="skills__level">Intermediário</span>
+                        <span className="skills__level">Avançado</span>
                     </div>
                 </div>
 
@@ -25,7 +25,7 @@ export const Backend = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">Node.Js</h3>
-                        <span className="skills__level">Básico</span>
+                        <span className="skills__level">Intermediário</span>
                     </div>
                 </div>
 
@@ -36,7 +36,7 @@ export const Backend = () => {
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div>
-                        <h3 className="skills__name">PHP</h3>
+                        <h3 className="skills__name">Nest.Js</h3>
                         <span className="skills__level">Intermediário</span>
                     </div>
                 </div>
@@ -44,8 +44,8 @@ export const Backend = () => {
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div>
-                        <h3 className="skills__name">Laravel</h3>
-                        <span className="skills__level">Intermediário</span>
+                        <h3 className="skills__name">PostgreSQL</h3>
+                        <span className="skills__level">Avançado</span>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ export const Backend = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">MySQL</h3>
-                        <span className="skills__level">Intermediário</span>
+                        <span className="skills__level">Avançado</span>
                     </div>
                 </div>
             </div>
